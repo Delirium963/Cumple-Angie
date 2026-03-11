@@ -62,11 +62,11 @@ slideInterval = setInterval(nextPhoto, 5000);
 // MUSIC PLAYER
 // ============================================
 const songs = [
-    { title: "Love of My Life - Queen", memory: "De tus favoritas y siempre te gusta tocar en la guitarra", audio:"/assets/mp3/Love Of My Life (Remastered 2011).mp3" },
-    { title: "Safe And Sound - Capital Cities", memory: "La cación que siempre me recuerda a vos", audio:"/assets/mp3/Safe_And_Sound.mp3" },
-    { title: "Sunflower - Post Malone, Swae Lee", memory: "Una canción que siempre te tiene de buen mood", audio:"/assets/mp3/Sunflower.mp3" },
-    { title: "Niño - Milo J", memory: "De parte del último album que te hizo llorar", audio:"/assets/mp3/Niño.mp3" },
-    { title: "Ma Meilluere Ennemie - Arcane", memory: "Porque yo también quiero bailar con vos con 4 frames locos", audio:"/assets/mp3/3_frames.mp3" },
+    { title: "Love of My Life - Queen", memory: "De tus favoritas y siempre te gusta tocar en la guitarra", audio:"./assets/mp3/Love Of My Life (Remastered 2011).mp3" },
+    { title: "Safe And Sound - Capital Cities", memory: "La cación que siempre me recuerda a vos", audio:"./assets/mp3/Safe_And_Sound.mp3" },
+    { title: "Sunflower - Post Malone, Swae Lee", memory: "Una canción que siempre te tiene de buen mood", audio:"./assets/mp3/Sunflower.mp3" },
+    { title: "Niño - Milo J", memory: "De parte del último album que te hizo llorar", audio:"./assets/mp3/Niño.mp3" },
+    { title: "Ma Meilluere Ennemie - Arcane", memory: "Porque yo también quiero bailar con vos con 4 frames locos", audio:"./assets/mp3/3_frames.mp3" },
 ];
 
 let currentSongIndex = 0;
